@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Светофор</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="traffic-light">
+      <div class="light red" id="red-light"></div>
+      <div class="light yellow" id="yellow-light"></div>
+      <div class="light green" id="green-light"></div>
+    </div>
+
+    <div class="actions">
+      <button onclick="showAction('red')">Красный</button>
+      <button onclick="showAction('yellow')">Желтый</button>
+      <button onclick="showAction('green')">Зеленый</button>
+    </div>
+
+    <h1 id="action-text">Стой</h1>
+
+    <script src="app.js"></script>
+  </body>
+</html>
